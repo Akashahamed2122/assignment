@@ -1,0 +1,657 @@
+/* global css  */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    width: 100%;
+    background-color: #F5F5F5;
+
+    .fira-sans-regular {
+        font-family: "Fira Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .fira-sans-medium {
+        font-family: "Fira Sans", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* shared */
+.font-heading{
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+    font-weight: 700;
+}
+/* header section code start */
+.header-section{
+    width: 100%;
+    margin: 30px 0px;
+
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.nav-ul li{
+    list-style-type: none;
+
+}
+.nav-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.nav-ul li a{
+    border: 2px solid #006A50;
+    color: #006A50;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 8px;
+
+}
+.nav-ul li a:hover{
+    color: white;
+    background-color: #006A50;
+   
+
+}
+
+/* banner section code start */
+.banner-section{
+    width: 100%;
+    
+    
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 20px;
+    
+    
+
+}
+
+.banner-item1{
+    width: 50%;
+
+}
+
+.banner-sub-title{
+    color: #6A7972;
+    font-weight: 600px;
+    font-size: 24px;
+
+}
+
+.banner-main-title{
+font-size: 56px;
+font-weight: 700;
+
+}
+
+.banner-btn{
+
+    padding: 17px 34px 17px 34px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+
+}
+
+.banner-btn:hover{
+    background-color:#5490F5;
+}
+
+.banner-item2{
+    width: 50%;
+
+}
+.images{
+    float: right;
+}
+
+.banner-item2 img{
+    width: auto;
+    
+}
+
+/* card section code start */
+.card-section{
+    margin: 70px 0px;
+
+}
+
+.card-title h2{
+    line-height: 48px;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 30px;
+    
+
+}
+
+.card{
+    width: 305px;
+    padding: 24px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+    background-color: white;
+}
+
+
+.card-heading{
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+color: rgba(14, 14, 14, 0.8);
+
+
+}
+.card-heading-p{
+
+    color: #5B6068; ;
+
+
+}
+
+.card-description{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+/* vision section */
+.vision-section{
+
+}
+
+.vision-title{
+
+}
+
+.vision-card-heading{
+margin-bottom: 30px;
+
+
+ }
+
+.vision-descripton{
+font-size: 16px;
+font-weight: 400px;
+color: rgba(14, 14, 14, 0.7);
+margin: 30px 0px;
+
+}
+
+.vision-container{
+    display: flex;
+    gap: 24px;
+
+}
+
+.vision-card{
+width: 410.67px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 32px;
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+
+}
+
+
+
+.vision-card img{
+    width: 70px;
+}
+
+.v-btn-1{
+    padding: 11px 20px 11px 20px;
+   background-color: #5490F5;
+   border: none;
+   border-radius: 8px;
+   color: white;
+   
+}
+.v-btn-1:hover{
+    background-color: #006A50;
+  
+   
+}
+
+/* vison card two */
+.vision-card-2{
+    width: 410.67px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+    }
+    .v-btn-2{
+        padding: 11px 20px 11px 20px;
+        background-color: rgb(9, 161, 92);
+       border: none;
+       border-radius: 8px;
+       color: white;
+       
+    }
+    .v-btn-2:hover{
+        background-color: #006A50;
+        
+       
+    }
+    /* vison card three */
+
+    .vision-card-3{
+        width: 410.67px;
+        box-sizing: border-box;
+        border-radius: 16px;
+        background: rgb(198, 228, 214);
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        
+        }
+        .v-btn-3{
+            padding: 11px 20px 11px 20px;
+           border: none;
+           border-radius: 8px;
+            background: rgb(255, 194, 57);
+            color: white;
+           
+        }
+        .v-btn-3:hover{
+            background-color: #006A50;
+           
+           
+        }
+
+        /* vison lorem code start */
+
+        .vision-lorem{
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            padding: 48px 24px 48px 24px;
+            margin: 30px 0px;
+            border-radius: 5px;
+        }
+
+        .lorem-img{
+            position: relative;
+
+        }
+
+        .lorem-img img{
+            position: absolute;
+            left: 36px;
+            top: -18px;
+
+        }
+
+        .lorem-descripton{
+            font-size: 16px;
+            font-weight: 400;
+            color: #5B6068;
+
+        }
+
+        .lorem-heading{
+            font-size: 20px;
+            color: #5B6068;
+           margin: 4px 0px;
+        }
+
+        /* table secton code start */
+
+        .table-section{
+            margin: 100px 0px;
+
+        }
+
+        .table-heading{
+            margin: 20px 0px;
+
+        }
+
+
+       table{
+
+        border-collapse: collapse;
+        width: 100%;
+        background-color: white;
+        
+        
+
+        
+       }
+       thead{
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+        background: rgb(198, 228, 214);
+       }
+       th{
+        text-align: start;
+        padding: 24px 0px;
+        
+       }
+
+       td{
+        border: 1px solid black;
+        padding: 15px 23px;
+        for align = "middle", textAlign is set to center
+        vertical-align: bottom;
+        
+          
+       }
+       select{
+        padding: 10px 5px;
+       }
+
+       tr{
+        border-spacing: 10px;
+       }
+
+       /* news  section code start */
+       .news-section{
+        margin: 50px 0px;
+
+       }
+
+       .news-title{
+
+       }
+
+       .news-description{
+        color: rgba(14, 14, 14, 0.7);
+        font-size: 16px;
+        font-weight: 400px;
+
+       }
+
+       .news-container{
+        margin-top: 30px;
+        display: flex;
+        gap: 32px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 48px;
+        border-radius: 15px;
+        background-color: white;
+       }
+
+    
+       .news-column-1{
+
+       }
+       .news-images{
+        
+       }
+
+       .news-images img{
+
+       }
+
+       /* column - 2 */
+
+    .news-column-2{
+
+    }
+
+    .news-column-2 img{
+        width: 134px;
+
+    }
+
+    .jazira-date{
+        color: rgba(14, 14, 14, 0.7);
+        font-size: 16px;
+        font-weight: 400;
+        margin: 12px 0px;
+
+    }
+
+    .satalite-desc{
+        color: rgba(14, 14, 14, 0.7);
+        margin: 12px 0px;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .jazira-btn{
+        padding: 13px 26px 13px 26px;
+        border-radius: 8px;
+        background: rgb(0, 106, 80);
+        border: none;
+        color: white;
+        margin: 20px 0px;
+
+    }
+    .jazira-btn:hover{
+        background-color: #5490F5;
+        
+
+    }
+
+    /* donate section code start */
+    .donate-section{
+        margin: 50px 0px;
+       
+    }
+
+    .donate-title{
+        text-align: center;
+        margin: 50px 0px;
+        
+
+    }
+
+    .donate-title-heading{
+        
+        margin: 24px 0px;
+    }
+    .donate-title-desc{
+        margin-bottom: 70px;
+        color: rgba(14, 14, 14, 0.7);
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .money-container{
+        
+        padding: 48px;
+        /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px */
+        
+
+    }
+
+    .money-card{
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        
+
+    }
+
+    .money-card span{
+        padding: 40px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        color: rgba(14, 14, 14, 0.8);
+        
+        font-size: 40px;
+        font-weight: 700;
+
+
+    }
+
+    .other-amount{
+
+    }
+    .my-other{
+        width: 80%;
+        margin: 20px 50px;
+        text-align: center;
+        padding: 20px 40px;
+        outline: none;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px
+        b
+    }
+
+    .other-amount  p{
+        margin: 60px 0px;
+        
+        text-align: center;
+        
+    
+       
+         
+    }
+
+    .span{
+        color: rgba(14, 14, 14, 0.3);
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .btn-amount{
+        text-align: center;
+        margin: 50px 0px;
+    }
+    .btn-amount a{
+        text-decoration: none;
+        padding: 15px 34px;
+        background: rgb(0, 106, 80);
+        color: white;
+        text-align: center;
+        border-radius: 8px;
+    }
+    .btn-amount a:hover{
+        background-color: #5490F5;
+       
+    }
+
+
+    /* news later section code start */
+    .news-later-section{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .my-news{
+        border-radius: 24px;
+        background: rgb(198, 228, 214);
+        padding: 80px 100px 80px 100px;
+    }
+
+   .news-later-desc{
+    color: rgba(14, 14, 14, 0.7);
+    margin: 30px 0px;
+    font-size: 16px;
+    font-weight: 400;
+
+   }
+
+   .news-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .news-form label{
+    
+    
+   }
+   
+   .news-form label input{
+    width: 600px;
+    padding: 18px 40px 18px 40px;
+    outline: none;
+    
+
+   }
+   .news-form a{
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+
+   }
+
+   .promise{
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(14, 14, 14, 0.7);
+    
+    font-size: 16px;
+    font-weight: 400;
+   }
+   
+
+
+   /* footer section code start */
+   .footer-section{
+    margin: 30px 0px;
+   }
+   .hr-style{
+    margin: 28px 75px;
+   }
+
+     
+
+   .footer-imgages{
+    text-align: center;
+   }
+  
+
+
+
+
+
+
+
